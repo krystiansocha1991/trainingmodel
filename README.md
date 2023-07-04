@@ -11,6 +11,7 @@ from nltk.tokenize import word_tokenize
 from keras.models import load_model, save_model
 # Ścieżka do folderu z artykułami
 articles_folder = ""
+# Ścieżka do zapisanego modelu
 model_path = ''
 # Wczytanie modelu
 model = load_model(model_path)
